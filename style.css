@@ -45,8 +45,7 @@
     display: flex;
     gap: 10rem;
     width: 80%;
-    margin: 0 auto;
-    margin-bottom: 5rem;
+    margin: 0 auto 5rem auto;
 }
 
 
@@ -59,11 +58,6 @@
 
 }
 
-.banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 .banner .banner-content {
     position: absolute;

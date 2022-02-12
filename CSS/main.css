@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@100;300;400;500;700&display=swap');
 @import url('/CSS/common-css/navigation.css');
 @import url('/CSS/common-css/footer.css');
-
+@import url('/CSS/product.css');
 :root{
     --primary-color:#3A9943;
     --white-color:#fff;
     --light-black:rgb(0,0,0,.60);
     --yellow-color:#FBBF24;
+    --active-rating-color:#ffb400;
 
     
 }
@@ -17,6 +18,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
     transition: all 0.2s linear;
     outline: none;
     border: none;

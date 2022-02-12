@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2111f0211b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/main.css">
+    <title>Florapot</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-left">
+
+                <a href="#" class="logo">
+                    <i class="fas fa-seedling"></i>
+                    Florapot
+                </a>
+                <ul class="nav-links">
+                    <li class="nav-items">
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#">Shop Now</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="nav-right">
+                <form class="search-bar-container">
+                    <label for="search-bar" class="fas fa-search"></label>
+                    <input type="text" class="search-bar" placeholder="search here">
+
+                </form>
+
+                <div class="icon-container">
+                    <a class="fas fa-user-circle"></a>
+                    <a class="fas fa-heart"></a>
+                    <a class="fas fa-shopping-cart"></a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="sidebar product-filter-container">
+            <div class="filter-titles">
+                <span class="filter">FILTERS</span>
+                <span class="clear-all-btn">CLEAR ALL</span>
+            </div>
+
+            <ul class="filter-section">
+                <li class="filter-section-title">
+                    SORT
+                </li>
+
+                <li>
+                    <label class="form-label">
+                        <input type="radio" name="sort" class="form-checkbox-field">
+                        Price High to Low
+                    </label>
+                </li>
+                <li>
+                    <label class="form-label">
+                        <input type="radio" name="sort" class="form-checkbox-field">
+                        Price Low to High
+                    </label>
+                </li>
+
+                <div class="divider-line"></div>
+                <li class="filter-section-title">
+                    CATEGORIES
+                </li>
+                <li>
+                    <label class="form-label">
+                        <input type="checkbox" class="form-checkbox-field">
+                        Outdoor Living
+                    </label>
+                </li>
+                <li>
+                    <label class="form-label">
+                        <input type="checkbox" class="form-checkbox-field">
+                        Indoor Plants
+                    </label>
+                </li>
+                <li>
+                    <label class="form-label">
+                        <input type="checkbox" class="form-checkbox-field">
+                        Outdoor Flower Plants
+                    </label>
+                </li>
+                <li>
+                    <label class="form-label">
+                        <input type="checkbox" class="form-checkbox-field">
+                        Plants For Gift
+                    </label>
+                </li>
+                <div class="divider-line"></div>
+                <li class="filter-section-title">
+                    BRAND
+                </li>
+
+                <li>
+                    <label class="form-label">
+                        <input type="checkbox" class="form-checkbox-field">
+                        Thronic
+                    </label>
+                </li>
+                <li>
+                    <label class="form-label">
+                        <input type="checkbox" class="form-checkbox-field">
+                        Ferns N Petals
+                    </label>
+                </li>
+                <li>
+                    <label class="form-label">
+                        <input type="checkbox" class="form-checkbox-field">
+                        Eco Ocean
+                    </label>
+                </li>
+                <li>
+                    <label class="form-label">
+                        <input type="checkbox" class="form-checkbox-field">
+                        Root Bridges
+                    </label>
+                </li>
+                <div class="divider-line"></div>
+
+                <li class="filter-section-title">
+                    CUSTOMER REVIEWS
+                </li>
+
+                <li class="rating">
+                    <div class="rating-container">
+                        <i class="fas fa-star fa-lg active-rating"></i>
+                        <i class="fas fa-star fa-lg active-rating"></i>
+                        <i class="fas fa-star fa-lg active-rating"></i>
+                        <i class="fas fa-star fa-lg active-rating"></i>
+                        <i class="fas fa-star fa-lg"></i>
+                        <span>& Up</span>
+                    </div>
+                    <div class="rating-container">
+                        <i class="fas fa-star fa-lg active-rating"></i>
+                        <i class="fas fa-star fa-lg active-rating"></i>
+                        <i class="fas fa-star fa-lg active-rating"></i>
+                        <i class="fas fa-star fa-lg"></i>
+                        <i class="fas fa-star fa-lg"></i>
+                        <span>& Up</span>
+                    </div>
+                    <div class="rating-container">
+                        <i class="fas fa-star fa-lg active-rating"></i>
+                        <i class="fas fa-star fa-lg active-rating"></i>
+                        <i class="fas fa-star fa-lg "></i>
+                        <i class="fas fa-star fa-lg"></i>
+                        <i class="fas fa-star fa-lg"></i>
+                        <span>& Up</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="product-container">
+            <div class="card-vertical">
+                <div class="vertical-card-icon">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="card-image">
+                    <img src="/images/plant-2.jpg">
+                </div>
+                <h3>latest plants</h3>
+                <div class="rating-container">
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg "></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                </div>
+                <div class="quantity">
+                    <span>quantity:</span>
+                    <input type="number" min="1" max="100">
+                </div>
+                <div class="price">RS.300 <span>(10% off)</span>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="card-vertical">
+                <div class="vertical-card-icon">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="card-image">
+                    <img src="/images/plant-3.jpg">
+                </div>
+                <h3>latest plants</h3>
+                <div class="rating-container">
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg "></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                </div>
+                <div class="quantity">
+                    <span>quantity:</span>
+                    <input type="number" min="1" max="100">
+                </div>
+                <div class="price">RS.300<span>(10% off)</span>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="card-vertical">
+                <div class="vertical-card-icon">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="card-image">
+                    <img src="/images/plant-4.jpg">
+                </div>
+                <h3>latest plants</h3>
+                <div class="rating-container">
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg "></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                </div>
+                <div class="quantity">
+                    <span>quantity:</span>
+                    <input type="number" min="1" max="100">
+                </div>
+                <div class="price">RS.300<span>(10% off)</span>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="card-vertical">
+                <div class="vertical-card-icon">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="card-image">
+                    <img src="/images/plant-8.jpg">
+                </div>
+                <h3>
+                    Root Bridges Ficus...</h3>
+                <div class="rating-container">
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg "></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                </div>
+                <div class="quantity">
+                    <span>quantity:</span>
+                    <input type="number" min="1" max="100">
+                </div>
+                <div class="price">RS.300<span>(10% off)</span>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="card-vertical">
+                <div class="vertical-card-icon">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="card-image">
+                    <img src="/images/Ugaoo Good Luck.jpg">
+                </div>
+                <h3>
+                    Ugaoo Good Luck Jade..</h3>
+                <div class="rating-container">
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg "></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                </div>
+                <div class="quantity">
+                    <span>quantity:</span>
+                    <input type="number" min="1" max="100">
+                </div>
+                <div class="price">RS.267<span>(10% off)</span>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="card-vertical">
+                <div class="vertical-card-icon">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="card-image">
+                    <img src="/images/plant-6.jpg">
+                </div>
+                <h3>
+                    Ugaoo Indoor Air Purifi..</h3>
+                <div class="rating-container">
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg "></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                </div>
+                <div class="quantity">
+                    <span>quantity:</span>
+                    <input type="number" min="1" max="100">
+                </div>
+                <div class="price">RS.300<span>(10% off)</span>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="card-vertical">
+                <div class="vertical-card-icon">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="card-image">
+                    <img src="/images/plant-2.jpg">
+                </div>
+                <h3>latest plants</h3>
+                <div class="rating-container">
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg "></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                </div>
+                <div class="quantity">
+                    <span>quantity:</span>
+                    <input type="number" min="1" max="100">
+                </div>
+                <div class="price">RS.300<span>(10% off)</span>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="card-vertical">
+                <div class="vertical-card-icon">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="card-image">
+                    <img src="/images/plant-7.jpg">
+                </div>
+                <h3>
+                    Ferns N Petals Money... 
+                </h3>
+                <div class="rating-container">
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg "></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                </div>
+                <div class="quantity">
+                    <span>quantity:</span>
+                    <input type="number" min="1" max="100">
+                </div>
+                <div class="price">RS.300<span>(10% off)</span>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-header">
+            Made by Shubham Singh
+        </div>
+        <ul class="social-icons">
+            <li class="footer-list-item">
+                <a href="https://github.com/techieshubham30" class="github-link">
+                    <i class="fab fa-github fa-lg"></i>
+                </a>
+
+            </li>
+            <li class="footer-list-item">
+                <a href="https://twitter.com/shubhamsingh088" class="twitter">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a>
+
+            </li>
+            <li class="footer-list-item">
+                <a href="https://www.linkedin.com/in/techieshubham/" class="linkedin-link">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-copy">
+            © 2022 Flora Designs
+        </div>
+    </footer>
+</body>
+
+</html>

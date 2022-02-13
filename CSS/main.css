@@ -2,6 +2,9 @@
 @import url('/CSS/common-css/navigation.css');
 @import url('/CSS/common-css/footer.css');
 @import url('/CSS/product.css');
+@import url('/CSS/signup.css');
+@import url('/CSS/login.css');
+@import url('/CSS/logout.css');
 :root{
     --primary-color:#3A9943;
     --white-color:#fff;

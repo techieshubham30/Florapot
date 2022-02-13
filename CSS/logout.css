@@ -1,0 +1,28 @@
+.logout-container{
+    width: 100%;
+    max-width: 55rem;
+    margin: 10rem auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    padding: 3rem;
+}
+
+.logout-container .display-flex-column i{
+    font-size: 6.5rem;
+    color: var(--primary-color);
+    margin: 0 auto;
+}
+
+.logout-content{
+    text-align: center;
+}
+
+.logout-content p{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    opacity: 0.90;
+}
+
+.logout-content span{
+    font-size: 2.5rem;
+    opacity: 0.80;
+}

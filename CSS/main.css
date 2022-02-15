@@ -5,6 +5,8 @@
 @import url('/CSS/signup.css');
 @import url('/CSS/login.css');
 @import url('/CSS/logout.css');
+@import url('/CSS/wishlist.css');
+@import url('/CSS/cart.css');
 :root{
     --primary-color:#3A9943;
     --white-color:#fff;

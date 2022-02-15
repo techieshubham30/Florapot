@@ -1,4 +1,4 @@
-.container {
+.wrapper {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -7,7 +7,8 @@
     margin-bottom: 5rem;
 }
 
-.sidebar {
+
+.filter-container{
     position: sticky;
     top: 4rem;
 }
@@ -116,7 +117,7 @@
     height: 25rem;
 }
 
-.card-vertical .btn{
+.card-vertical .card-btn{
     display:block;
     padding: 1rem 2.5rem;
     margin-top: 1.5rem;
@@ -124,7 +125,7 @@
     color: var(--white-color);
     background-color: var(--primary-color);
 }
-.card-vertical .btn:hover{
+.card-vertical .card-btn:hover{
     background-color: var(--light-black);
 }
 
@@ -157,13 +158,13 @@
     background-color: var(--white-color);
 }
 
+.card-vertical:hover .vertical-card-icon{
+    right: 1rem;
+}
+
 .vertical-card-icon a:hover{
     color: var(--white-color);
     background-color: var(--primary-color);
-}
-
-.card-vertical:hover .vertical-card-icon{
-    right: 1rem;
 }
 
 .card-vertical h3{
@@ -189,4 +190,8 @@
     font-size: 2rem;
     font-weight: bolder;
     color: var(--primary-color);
+}
+
+img{
+    opacity: 1;
 }

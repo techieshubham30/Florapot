@@ -63,11 +63,13 @@
     position: absolute;
     right: 4rem;
     top: 30%;
+    text-transform: capitalize;
 }
 
 .banner-content span {
     font-size: 1.7rem;
     color: var(--light-black);
+    
 }
 
 .banner-content h3 {

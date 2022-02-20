@@ -23,5 +23,5 @@ FLorapot is an E-commerce website for plants.
 
 ## Demo
 
-('./demo.gif')
+![](demo.gif)
 
